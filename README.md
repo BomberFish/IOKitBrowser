@@ -1,17 +1,22 @@
 IOKitBrowser
 ============
 
-Uses private API to access various hardware related informations on iOS.
-I used it to check the battery cycle count. But there are other informations hidden es well, eg. temperature etc.
+Jailed iOS app that lets you see various hardware info.
+
+macOS support is... there.
+
+Uses a private API to access various hardware-related informations on iOS.
+I used it to check the battery cycle count. But there are other informations hidden as well, e.g. temperature, etc.
 
 (c) developed and copyright by Lyon Anderson
 http://www.lyonanderson.org/blog/2014/02/12/ios-iokit-browser/
 
-iOS 8 adapted by me.      
+Layout adapted by me.
+iOS 11+ only. (Sorry legacy users!)      
 
 ## Check memory type:                                                                                  
 
-Root > N61AP > AppleARMPE > arm-io > AppleT7000IO > ans > AppleA7IOPV1 > AppleCSI > asp > ASPStorage
+Root > NxxxAP > AppleARMPE > arm-io > AppleTxxxxIO > ans > AppleA7IOPV1 > AppleCSI > asp > ASPStorage
 
 defaults-bits-per-cell:
 * 3 = TLC
@@ -20,12 +25,12 @@ defaults-bits-per-cell:
 
 ## Check Battery Cycle Count
 
-Root > N61AP > AppleARMPE > charger > AppleARMPMUCharger
+Root > NxxxAP > AppleARMPE > charger > AppleARMPMUCharger
 
 Scroll to CycleCount.
 
 ## Warning!
-Do not use for App submissions. You will be rejected. 
+Do not try to submit this to the App Store! You will be rejected. 
 
 ## Disclaimer
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,

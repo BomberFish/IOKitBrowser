@@ -59,6 +59,7 @@ static NSString *kSearchTerm = @"kSearchTerm";
 
 - (void)_loadIOKit {
     _tableView.hidden = YES;
+    _tableView.layer.cornerRadius = 8.0;
     _trailHolder.hidden = YES;
     [_spinner startAnimating];
 

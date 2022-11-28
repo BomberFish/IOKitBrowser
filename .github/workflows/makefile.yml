@@ -19,7 +19,7 @@ jobs:
        name: IPA Download
        path: IOKitBrowser.ipa
     - name: Make tIPA (for TrollStore)
-      run: make && mv pissra1n.ipa pissra1n.tipa
+      run: make && mv IOKitBrowser.ipa IOKitBrowser.tipa
     - uses: actions/upload-artifact@v3
       with:
        name: tIPA Download (TrollStore)

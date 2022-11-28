@@ -2,6 +2,7 @@ IOKitBrowser
 ============
 
 Jailed iOS app that lets you see various hardware info.
+[Download](https://nightly.link/BomberFish/IOKitBrowser/workflows/makefile/master)
 
 macOS support is... there.
 

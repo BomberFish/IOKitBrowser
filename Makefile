@@ -1,7 +1,7 @@
 all: build package clean
 
 PROJECT = $(shell basename *.xcodeproj)
-TARGET = IOKitTest
+TARGET = IOKitBrowser
 CONFIGURATION = Release
 SDK = iphoneos
 

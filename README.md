@@ -1,12 +1,11 @@
 IOKitBrowser
 ============
 
-Jailed iOS app that lets you see various hardware info.
+Jailed iOS/iPadOS/macOS app that lets you see various hardware info.
+
 [Download](https://nightly.link/BomberFish/IOKitBrowser/workflows/makefile/master)
 
-macOS support is... there.
-
-Uses a private API to access various hardware-related informations on iOS.
+Uses a private API (IOKit) to access various hardware-related informations on Apple devices.
 I used it to check the battery cycle count. But there are other informations hidden as well, e.g. temperature, etc.
 
 (c) developed and copyright by Lyon Anderson
